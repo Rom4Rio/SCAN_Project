@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Ferry';
+  src: url('fonts/ferry_black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --base-green: #029491;
+  --base-black: #000000;
+  --base-white: #ffffff;
+  --add-orange: #FFB64F;
+  --add-green: #7CE3E1;
+  --add-blue: #5970FF;
+  --add-lt-blue: #3BA5E0;
+  --add-gray: #D2D2D2;
+  --add-red: #FF5959;
+  --ferry: Ferry, serif;
+  --inter: Inter, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--inter);
+}
+
+button {
+  cursor: pointer;
+}
